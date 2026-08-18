@@ -52,3 +52,12 @@ To remove the binary from your system:
 sudo rm /usr/local/bin/rofi-clipboard
 hash -r
 ```
+
+## Acknowledgements
+
+Thanks for the inspiration!
+
+* [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
+* [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
+
+These projects inspired the idea of building lightweight, Rofi-based utilities for interacting with the Linux desktop.
