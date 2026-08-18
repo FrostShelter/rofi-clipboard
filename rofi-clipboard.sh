@@ -99,7 +99,7 @@ fi
 # ============================================================
 
 if (( ${#DISPLAY[@]} == 0 )); then
-    echo " Clipboard history is empty!" |
+    echo "    Clipboard history is empty!" |
         rofi -dmenu \
             -i \
             -p " Clipboard" \
