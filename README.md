@@ -16,7 +16,7 @@ It provides a simple Rofi-based interface for browsing clipboard history, copyin
 * A Wayland compositor such as Hyprland, Sway, or Niri.
 
 ## Attentive
-If  you want to have bigger image preview,you need to change the size for element-icon like this:
+If  you want to have bigger image preview,you need to change the size for element-icon like this in config.rasi(Rofi):
 ```
 element-icon {
     size: 36px;
