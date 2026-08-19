@@ -16,6 +16,13 @@ It provides a simple Rofi-based interface for browsing clipboard history, copyin
 * A Wayland compositor such as Hyprland, Sway, or Niri.
 
 ## Attentive
+If  you want to have bigger image preview,you need to change the size for element-icon like this:
+```
+element-icon {
+    size: 36px;
+    background-color: transparent;
+}
+```
 
 Please make sure that `cliphist` is already configured and running correctly before using `rofi-clipboard`.
 
