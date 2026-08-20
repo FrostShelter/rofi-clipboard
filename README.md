@@ -6,7 +6,7 @@ It provides a simple Rofi-based interface for browsing clipboard history, copyin
 
 ## Dependencies
 
-* `rofi`
+* `rofi-wayland`
 * `cliphist`
 * `wl-clipboard`
 
