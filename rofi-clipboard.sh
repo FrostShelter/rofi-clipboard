@@ -257,6 +257,7 @@ case "$action" in
             -t 1500 \
             2>/dev/null || true
 
+        exit 0
         ;;
 
     "   Remove")
@@ -286,6 +287,7 @@ case "$action" in
         ;;
 
     "   Back")
+        exec "$0"
         ;;
 
 esac
