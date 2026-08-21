@@ -157,12 +157,6 @@ if [[ "$SELECTED" -eq 0 ]]; then
 
     rm -f "$CACHE_DIR"/*
 
-    notify-send \
-        "Clipboard" \
-        "History cleared." \
-        -t 2000 \
-        2>/dev/null || true
-
     exit 0
 fi
 
@@ -251,12 +245,6 @@ case "$action" in
             cliphist decode |
             wl-copy
 
-        notify-send \
-            "Clipboard" \
-            "Item copied." \
-            -t 1500 \
-            2>/dev/null || true
-
         exit 0
         ;;
 
@@ -265,19 +253,11 @@ case "$action" in
         if printf '%s\n' "$ORIG_LINE" |
             cliphist delete 2>/dev/null; then
 
-            notify-send \
-                "Clipboard" \
-                "Item removed from history." \
-                -t 1500 \
-                2>/dev/null || true
+            true
 
         else
 
-            notify-send \
-                "Clipboard" \
-                "Failed to remove item." \
-                -t 2000 \
-                2>/dev/null || true
+            true
 
         fi
 
